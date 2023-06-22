@@ -7,7 +7,7 @@ function Header() {
   const {darkmode,setDarkmode,handleDarkmode} = useContext(Context);
 
   return (
-    <header className={darkmode ? 'darkmode' : ''}>
+    <header>
       <h1>Header</h1>
       {darkmode ? <button onClick={handleDarkmode} className='btn'>light mode <BsSun className='icon'/></button>
                 : <button onClick={handleDarkmode} className='btn'>dark mode <FiMoon className='icon'/></button>}

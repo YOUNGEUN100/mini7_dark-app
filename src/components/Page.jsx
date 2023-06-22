@@ -8,7 +8,7 @@ function Page() {
   const {darkmode, setDarkmode} = useContext(Context);
 
   return (
-    <div className={darkmode ? 'App darkmode' : 'App'}>
+    <div className='App'>
       <Header />
       <Main/>
       <Footer/>
